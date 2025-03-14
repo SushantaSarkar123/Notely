@@ -19,7 +19,7 @@
 
 ### **1️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/Notely.git
+git clone https://github.com/SushantaSarkar123/Notely.git
 cd Notely
 ```
 
@@ -75,7 +75,6 @@ Here are some preview images of the application:
 |--------------|----------------|
 | ![Home](screenshots/home.png) | ![Notifications](screenshots/notifications.png) |
 
-🔹 **To add images**: Place the screenshots in a `screenshots/` folder inside the project and update the image links accordingly.
 
 ---
 
