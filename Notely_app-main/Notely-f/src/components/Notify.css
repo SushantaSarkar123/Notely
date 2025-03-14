@@ -1,0 +1,90 @@
+/* Inotes_app-main/inotes-f/src/components/Notify.css */
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.custom-button {
+    margin-right: 10px; /* Adjust the space between buttons */
+    padding: 10px 20px; /* Adjust the size of the buttons */
+    font-size: 16px; /* Change the font size */
+}
+
+
+
+/* Notify.css or a dedicated CSS file for the navbar */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .navbar .nav-link {
+        padding: 10px 15px; /* Increase padding for touch targets */
+        width: 100%; /* Make links full width */
+        text-align: left; /* Align text to the left */
+    }
+
+    .navbar .form-inline {
+        width: 100%; /* Make the search form full width */
+        margin-top: 10px; /* Add some margin on top */
+    }
+
+    .navbar .form-control {
+        width: calc(100% - 50px); /* Adjust width for search input */
+    }
+
+    .navbar .btn {
+        width: 100%; /* Make buttons full width */
+        margin-top: 10px; /* Add some margin on top */
+    }
+
+    .list-group-item {
+        padding: 15px; /* Increase padding for touch targets */
+    }
+
+    .btn {
+        width: 100%; /* Make buttons full width */
+        margin-top: 5px; /* Add some margin on top */
+    }
+
+    .badge {
+        font-size: 0.8rem; /* Adjust badge font size */
+    }
+
+    .d-flex {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .justify-content-between {
+        justify-content: flex-start; /* Align items to the start */
+    }
+}
+
+/* Adjust styles for larger screens */
+@media (min-width: 769px) {
+    .list-group-item {
+        padding: 15px; /* Maintain padding for desktop */
+        display: flex; /* Ensure items are displayed in a row */
+        justify-content: space-between; /* Space between items */
+        align-items: center; /* Center items vertically */
+    }
+
+    .btn {
+        width: auto; /* Allow buttons to size based on content */
+        margin-top: 0; /* Remove margin for desktop */
+    }
+
+    .badge {
+        font-size: 1rem; /* Adjust badge font size for desktop */
+        margin-right: 10px; /* Add margin to separate badge from buttons */
+    }
+
+    .d-flex {
+        flex-direction: row; /* Ensure items are in a row for desktop */
+    }
+
+    .justify-content-between {
+        justify-content: space-between; /* Maintain spacing for desktop */
+    }
+}

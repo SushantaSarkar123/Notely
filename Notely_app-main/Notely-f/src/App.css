@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Gradient background for the right half with vibrant colors */
+.gradient-custom-2 {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  border-radius: 15px;
+}
+
+/* Container to prevent overflow and fit the screen */
+.gradient-form {
+  height: 100vh; /* Full height */
+  overflow: hidden; /* Prevent scroll bars */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding-top: 20px; /* Reduce top padding */
+  padding-bottom: 20px; /* Reduce bottom padding */
+}
+
+/* Adjust the size of the columns */
+.mb-5 {
+  margin-bottom: 1rem; /* Reduce bottom margin */
+}
+
+/* Button styles */
+.btn-custom {
+  background-color: #ff416c;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #ff4b2b;
+}
+
+/* Styling for input fields */
+.MDBInput {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+/* Heading and Paragraph Styling */
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Logo Styling */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom styles for the column */
+.gradient-custom-2 {
+  background-color: #ff4b2b;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* Custom card style for form box */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .gradient-form {
+    flex-direction: column;
+    height: auto; /* Make sure it adapts to smaller screens */
+    padding: 1rem;
+  }
+
+  .gradient-custom-2 {
+    display: none; /* Hide right gradient column on smaller screens */
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Additional Styling for Focused Input Fields */
+input:focus {
+  outline: none;
+  border-color: #ff4b2b;
+  box-shadow: 0 0 8px rgba(255, 75, 43, 0.4);
+}
+
+/* Add this to your CSS file */
+/* .alert {
+    margin-bottom: 10px;
+} */
+/* 
+.navbar {
+    z-index: 1050; 
+} */
+
+.content-area {
+    padding-top: 70px; /* Space for the navbar */
+    padding-bottom: 20px; /* Space below the content */
+}

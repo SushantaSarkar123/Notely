@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"npm start --prefix Notely_app-main/Notely_b\" \"npm start --prefix Notely_app-main/Notely-f\""
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "lodash": "^4.17.21",
+    "react-bootstrap": "^2.10.4"
+  }
+}
