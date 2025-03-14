@@ -63,7 +63,6 @@ EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_app_password
 ```
 ---
----
 
 ## 📸 Screenshots  
 Here are some preview images of the application:  
