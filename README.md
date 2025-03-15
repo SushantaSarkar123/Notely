@@ -145,7 +145,3 @@ Feel free to use, modify, and distribute the code.
 🌐 **GitHub**: [SushantaSarkar](https://github.com/SushantaSarkar123)  
 ---
 
-## 📩 Contact  
-📧 **Email**: babaisarkar083@example.com  
-🌐 **GitHub**: [SushantaSarkar](https://github.com/SushantaSarkar123)  
-
