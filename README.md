@@ -139,9 +139,8 @@ This project is **MIT Licensed**.
 Feel free to use, modify, and distribute the code.  
 
 ---
-
 ## 📩 Contact  
 📧 **Email**: babaisarkar083@example.com  
-🌐 **GitHub**: [SushantaSarkar](https://github.com/SushantaSarkar123)  
----
+🌐 **GitHub**: [SushantaSarkar123](https://github.com/SushantaSarkar123)  
+
 
