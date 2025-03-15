@@ -27,3 +27,6 @@ Trash/**
 
 # Ignore cursor-related indexing (if applicable)
 .cursorignore
+
+#Git Commands
+git_Commands.text
