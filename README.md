@@ -140,7 +140,7 @@ Feel free to use, modify, and distribute the code.
 
 ---
 ## 📩 Contact  
-📧 **Email**: babaisarkar083@example.com  
+📧 **Email**: babaisarkar083@gmail.com  
 🌐 **GitHub**: [SushantaSarkar123](https://github.com/SushantaSarkar123)  
 
 
