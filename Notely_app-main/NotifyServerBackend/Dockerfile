@@ -1,8 +1,7 @@
-FROM node:lts
-
+FROM node:current-alpine
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
+RUN npm install    # Installs node-cron and other dependencies
 COPY . .
-EXPOSE 5001
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
+

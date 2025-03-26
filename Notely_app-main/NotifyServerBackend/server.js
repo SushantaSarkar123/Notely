@@ -5,9 +5,10 @@ const cors = require('cors');  // for frontend talk with backend without thirt p
 const connectToMongoose = require('./db'); // Import the connection function of mongoDB
 const User = require('./models/Users'); // import the modules for useing it to fetch data from database
 const Remainders = require('./models/Remainders'); // import the modules for useing it to fetch data from database
+// require('dotenv').config();
 
 const app = express();  // set up the server
-const port = 5001; // Use a different port for the notification server for no problem with frontend
+const port = process.env.PORT1 || 5001; // Use a different port for the notification server for no problem with frontend
 
 app.use(cors());
 app.use(express.json());

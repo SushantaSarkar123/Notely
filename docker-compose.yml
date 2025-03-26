@@ -1,6 +1,7 @@
-version: '3'
 services:
   backend:
+    env_file:
+      - .env
     build:
       context: ./Notely_app-main/Notely_b
       dockerfile: Dockerfile
@@ -10,7 +11,7 @@ services:
       - NODE_ENV=production
     depends_on:
       - mongodb # Ensure MongoDB starts first
-  
+
   frontend:
     build:
       context: ./Notely_app-main/Notely-f
@@ -19,12 +20,16 @@ services:
       - "3000:80"
 
   notify:
+    env_file:
+      - .env
     build:
       context: ./Notely_app-main/NotifyServerBackend
       dockerfile: Dockerfile
     ports:
       - "5001:5001"
-  
+    depends_on:
+      - mongodb # Ensure MongoDB starts first
+
   mongodb:
     image: mongo:latest
     ports:

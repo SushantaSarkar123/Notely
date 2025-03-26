@@ -11,15 +11,17 @@
   "author": "Sushanta",
   "license": "ISC",
   "dependencies": {
+    "node-cron": "^3.0.0",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "express-validator": "^6.15.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.1.3"
+    "mongoose": "^8.1.3",
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.9.3"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
   }
 }
-

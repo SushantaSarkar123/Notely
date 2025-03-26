@@ -1,5 +1,6 @@
 # Frontend Dockerfile for React.js
-FROM node:lts
+# FROM node:lts
+FROM node:latest
 
 WORKDIR /app
 COPY package*.json ./
