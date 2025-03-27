@@ -14,8 +14,8 @@ WORKDIR /app
 COPY package*.json ./
 # Install dependencies using npm ci (better for production)
 # RUN npm ci --omit=dev
-# RUN npm ci --omit=dev
-RUN npm install 
+RUN npm ci --omit=dev
+# RUN npm install 
 # Copy the rest of the project files
 COPY . .
 # Expose the backend port (adjust if needed)
