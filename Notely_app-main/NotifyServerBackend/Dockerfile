@@ -13,7 +13,9 @@ WORKDIR /app
 # Copy package.json and package-lock.json to optimize caching
 COPY package*.json ./
 # Install dependencies using npm ci (better for production)
-RUN npm ci --omit=dev
+# RUN npm ci --omit=dev
+# RUN npm ci --omit=dev
+RUN npm install 
 # Copy the rest of the project files
 COPY . .
 # Expose the backend port (adjust if needed)
