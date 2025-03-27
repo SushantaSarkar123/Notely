@@ -1,6 +1,6 @@
 # Backend Dockerfile for Express.js
-# FROM node:lts
-FROM node:latest
+FROM node:lts
+# FROM node:latest
 
 WORKDIR /app
 COPY package*.json ./
